@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd5908cd-89f1-439c-8f9e-2ab913151fea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../06-Django/.idea/06-Django.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/.idea/dataSources/a49e6462-0808-4552-ba25-cacda631927e.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/.idea/dataSources/a49e6462-0808-4552-ba25-cacda631927e/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/App/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/App/migrations/0002_auto_20181029_0256.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/App/migrations/0003_user_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/App/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/App/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/App/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/Django01/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/Django01/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/static/img/head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django01/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/.idea/Django02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/App/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/App/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/App/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/App/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/App/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/App/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/Django02/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/Django02/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/css/display.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/css/goods.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/css/goodslist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/css/hover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/css/statement.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1200-602.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10086/B1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10086/s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10086/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10086/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10087/B1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10087/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10087/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10087/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10088/B1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10088/s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10088/s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10088/s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10088/s4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10089/B1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10089/s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10089/s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10089/s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10089/s4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10089/s5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10090/B1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10090/s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10090/s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10090/s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10090/s4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10090/s5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10092/B1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10092/s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10092/s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10092/s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10092/s4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/10092/s5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/apple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/coolpad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/huawei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/lenovo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/leshi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/lun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/lun2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/lun3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/mainsell.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/meizu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/oppo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/sony.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/sumsung.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/1f/vivo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/2f/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/2f/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/2f/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/2f/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/2f/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/2f/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/2f/mainsell.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/3f/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/3f/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/3f/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/3f/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/3f/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/3f/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/3f/mainsell.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/4f/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/4f/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/4f/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/4f/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/4f/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/4f/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/4f/mainsell.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/baozhang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/cun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/goodslist/logo9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/login/QQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/login/baidu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/login/weibo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/login/zhifu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/logo_180x50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/new/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/one/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/one/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/one/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/one/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/one/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/one/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/one/shop_wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/one/txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/one_Money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/pei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/piao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/promise.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/research_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/return.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/row_title_v1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/sf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/shop_wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/sort/pei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/sort/piao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/sort/sf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/sort/tuihuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/sort/xin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/special/spe1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/special/spe2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/special/spe3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/special/spe4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/special/special1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/special/special2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/special/special3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/toolbar/foot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/toolbar/order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/toolbar/shoppingcar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/topbar_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/tuanlist/tuanlist1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/tuanlist/tuanlist2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/tuanlist/tuanlist3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/tuanlist/tuanlist4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/img/zolcom_list_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/js/goodslist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/js/jquery-1.12.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/js/jquery-3.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/js/jquery.fly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/js/statement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/static/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-Django/Django02/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django07/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django07/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django07/App/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django07/templates/goodsview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Python1809AXF.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e7e9e505-6a01-4e2c-9168-aa90ab4a9b17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python1809AXF/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python1809AXF/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python1809AXF/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python1809AXF/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axf/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axf/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axf/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axf/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axf/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axf/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axf/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/css/swiper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/base/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/home/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/home/css/swiper-3.4.2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/home/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/home/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/home/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/home/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/home/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/home/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/home/js/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/home/js/swiper-3.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cart/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/market/market.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mine/mine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django000/App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Django000/App/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django000/App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Django000/App/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django000/Django000/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Django000/Django000/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django000/Django000/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Django000/Django000/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django000/Django000/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Django000/Django000/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/.idea/Django06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django01/.idea/Django01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django01/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Django06/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/App/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django01/App/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/App/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django01/App/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/App/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django01/App/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/App/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django01/App/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django02/App/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/App/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django01/App/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/App/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django02/App/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/Django06/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django01/Django01/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/Django06/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django02/Django02/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/Django06/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django02/Django02/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/Django06/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django01/Django01/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Django/Django01/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django06/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Django07/templates/index.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1440685123">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="12" />
+          <entry key="html" value="664" />
+          <entry key="js" value="137" />
+          <entry key="py" value="266" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="12" />
+          <entry key="HTML" value="653" />
+          <entry key="JavaScript" value="137" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="266" />
+          <entry key="SQL" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="html" value="12" />
+          <entry key="js" value="2" />
+          <entry key="md" value="1" />
+          <entry key="py" value="4" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="12" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="4" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+              <folding>
+                <element signature="e#450#482#0#HTML" expanded="true" />
+                <element signature="e#581#613#0#HTML" expanded="true" />
+                <element signature="e#688#720#0#HTML" expanded="true" />
+                <element signature="e#807#839#0#HTML" expanded="true" />
+                <element signature="e#926#958#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/home/css/home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="785">
+              <caret line="255" column="5" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/home/js/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Python1809AXF/urls.py" />
+        <option value="$PROJECT_DIR$/axf/urls.py" />
+        <option value="$PROJECT_DIR$/Python1809AXF/settings.py" />
+        <option value="$PROJECT_DIR$/Python1809AXF/__init__.py" />
+        <option value="$PROJECT_DIR$/axf/views.py" />
+        <option value="$PROJECT_DIR$/templates/cart/cart.html" />
+        <option value="$PROJECT_DIR$/templates/mine/mine.html" />
+        <option value="$PROJECT_DIR$/templates/market/market.html" />
+        <option value="$PROJECT_DIR$/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/static/home/css/home.css" />
+        <option value="$PROJECT_DIR$/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/static/home/js/home.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="959" />
+    <option name="y" value="40" />
+    <option name="width" value="921" />
+    <option name="height" value="1001" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Python1809AXF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python1809AXF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python1809AXF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python1809AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="axf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python1809AXF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python1809AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="Python1809AXF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python1809AXF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python1809AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python1809AXF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python1809AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python1809AXF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python1809AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python1809AXF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python1809AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python1809AXF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python1809AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python1809AXF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python1809AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python1809AXF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python1809AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mine" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/home/css" />
+      <recent name="$PROJECT_DIR$/static/home/js" />
+      <recent name="$PROJECT_DIR$/static/home/img" />
+      <recent name="$PROJECT_DIR$/static/mine" />
+      <recent name="$PROJECT_DIR$/static/market" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python1809AXF" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Python1809AXF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Python1809AXF.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd5908cd-89f1-439c-8f9e-2ab913151fea" name="Default Changelist" comment="" />
+      <created>1540974106659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540974106659</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="959" y="40" width="921" height="1001" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26734927" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5308219" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32990867" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32965213" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.0" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.53125" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32965213" />
+      <window_info anchor="right" id="SciView" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7e9e505-6a01-4e2c-9168-aa90ab4a9b17/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python1809AXF/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python1809AXF/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cart/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axf/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python1809AXF/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axf/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/market/market.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mine/mine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/css/swiper-3.4.2.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/js/swiper-3.4.2.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="255" column="5" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding>
+            <element signature="e#450#482#0#HTML" expanded="true" />
+            <element signature="e#581#613#0#HTML" expanded="true" />
+            <element signature="e#688#720#0#HTML" expanded="true" />
+            <element signature="e#807#839#0#HTML" expanded="true" />
+            <element signature="e#926#958#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block extcss %}
+   <link rel="stylesheet" href="{% static 'home/css/home.css' %}">
+{% endblock %}
+
+{% block extjs %}
+    <script src="{% static 'home/js/home.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+{#   轮播图#}
+   <div class="home">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="{% static 'home/img/1.jpg' %}" style="width: 100%;height: 100%"></div>
+            <div class="swiper-slide"><img src="{% static 'home/img/2.jpg' %}" style="width: 100%;height: 100%"></div>
+            <div class="swiper-slide"><img src="{% static 'home/img/3.jpg' %}" style="width: 100%;height: 100%"></div>
+            <div class="swiper-slide"><img src="{% static 'home/img/4.jpg' %}" style="width: 100%;height: 100%"></div>
+            <div class="swiper-slide"><img src="{% static 'home/img/5.jpg' %}" style="width: 100%;height: 100%"></div>
+
+{#            <div class="swiper-slide">Slide 3</div>#}
+{#            <div class="swiper-slide">Slide 4</div>#}
+{#            <div class="swiper-slide">Slide 5</div>#}
+{#            <div class="swiper-slide">Slide 6</div>#}
+{#            <div class="swiper-slide">Slide 7</div>#}
+{#            <div class="swiper-slide">Slide 8</div>#}
+{#            <div class="swiper-slide">Slide 9</div>#}
+{#            <div class="swiper-slide">Slide 10</div>#}
+        </div>
+        <!-- Add Scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+   </div>
+
+
+{% endblock %}
+
+
+{% block title %}
+    这是首页
+{% endblock %}
