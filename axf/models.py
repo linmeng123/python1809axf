@@ -111,6 +111,60 @@ class Goods(models.Model):
         db_table = 'axf_goods'
 
 
+#登录注册账号相关
+class User(models.Model):
+    #账号
+    account = models.CharField(max_length=80,unique=True)
+    #密码
+    password = models.CharField(max_length=256)
+    #名字
+    name = models.CharField(max_length=100)
+    #手机号
+    phone = models.CharField(max_length=20,unique=True)
+    #地址
+    addr = models.CharField(max_length=256)
+    #头像
+    img = models.CharField(max_length=100)
+    #等级
+    rank = models.IntegerField(default=1)
+    #token
+    token = models.CharField(max_length=256)
+
+
+class Cart(models.Model):
+    user = models.ForeignKey(User)
+    goods = models.ForeignKey(Goods)
+    #商品数量
+    number = models.IntegerField()
+    #是否选中
+    isselect = models.BooleanField(default=True)
+
+class Order(models.Model):
+    # 用户
+    user = models.ForeignKey(User)
+    # 创建时间
+    createtime = models.DateTimeField(auto_now_add=True)
+    # 状态
+    # -1 过期
+    # 1 未付款
+    # 2 已付款，未发货
+    # 3 已发货，快递
+    # 4 已签收，未评价
+    # 5 已评价
+    # 6 退款....
+    status = models.IntegerField(default=1)
+    # 订单号
+    identifier = models.CharField(max_length=256)
+
+
+
+class OrderGoods(models.Model):
+    # 订单
+    order = models.ForeignKey(Order)
+    # 商品
+    goods = models.ForeignKey(Goods)
+    # 个数
+    number = models.IntegerField(default=1)
 
 
 

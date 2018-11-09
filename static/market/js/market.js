@@ -3,7 +3,7 @@ $(function () {
 
     // 获取typeIndex
     typeIndex = $.cookie('typeIndex')
-    if (typeIndex){ // 已经有点击分类
+    if (typeIndex) { // 已经有点击分类
         $('.type-slider .type-item').eq(typeIndex).addClass('active')
     } else {    // 没有点击分类
         // 没有点击默认第一个
@@ -11,11 +11,10 @@ $(function () {
     }
 
 
-
     $('.type-item').click(function () {
         // $(this).addClass('active')
         // 记录位置
-        $.cookie('typeIndex', $(this).index(), {expires:3, path:'/'})
+        $.cookie('typeIndex', $(this).index(), {expires: 3, path: '/'})
     })
 
 
@@ -54,6 +53,7 @@ $(function () {
         $('.bounce-view.category-view').show()
         $('#categoryBt i').removeClass('glyphicon glyphicon-menu-up').addClass('glyphicon glyphicon-menu-down')
     }
+
     function categoryViewHide() {
         $('.bounce-view.category-view').hide()
         $('#categoryBt i').removeClass('glyphicon glyphicon-menu-down').addClass('glyphicon glyphicon-menu-up')
@@ -65,8 +65,91 @@ $(function () {
         $('.bounce-view.sort-view').show()
         $('#sortBt i').removeClass('glyphicon glyphicon-menu-up').addClass('glyphicon glyphicon-menu-down')
     }
+
     function sortViewHide() {
         $('.bounce-view.sort-view').hide()
         $('#sortBt i').removeClass('glyphicon glyphicon-menu-down').addClass('glyphicon glyphicon-menu-up')
     }
-})
+
+
+    $('.bt-wrapper .glyphicon-minus').hide()
+    $('.bt-wrapper .num').hide()
+
+
+    //加操作
+    $('.bt-wrapper .glyphicon-plus').click(function () {
+
+        // 商品ID
+        var goodsid = $(this).attr('goodsid')
+        // that为了解决，在ajax中，this指向问题
+        var $that = $(this)
+        $.get('/addcart/', {'goodsid': goodsid}, function (response) {
+            if (response.status == -1) { // 未登录
+                window.open('/login/', target = "_self")
+            } else if (response.status == 1) {   // 添加成功
+                $that.prev().show().html(response.number)
+                $that.prev().prev().show()
+            }
+        })
+    });
+
+    //减操作
+    $('.bt-wrapper .glyphicon-minus').click(function () {
+        console.log('66666')
+
+        var goodsid = $(this).attr('goodsid')
+        var $that = $(this)
+        $.get('/subcart/', {'goodsid': goodsid}, function (response) {
+            console.log(response)
+            if (response.status == 1) {
+                var number = response.number
+                if (number > 0) {
+                    $that.next().html(number)
+                } else {
+                    $that.next().hide()
+                    $that.hide()
+                }
+            }
+        })
+
+
+    })
+//
+// $('.bt-wrapper .num').each(function () {
+//         var num = parseInt($(this).html())
+//         if (num){
+//             $(this).show()
+//             $(this).prev().show()
+//         }
+//     })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
